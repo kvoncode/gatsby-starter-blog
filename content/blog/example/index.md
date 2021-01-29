@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Example post
 date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+description: "Preexisted demostration on how to use markdown"
 ---
 
 This is my first post on my new fake blog! How exciting!
