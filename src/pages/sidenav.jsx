@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-const CloseMenu = styled.button`
+const CloseMenu = styled.a`
   background-color: red;
   border: 1px solid red;
 `
@@ -10,8 +10,16 @@ const SideNav = styled.aside`
   background-color: green;
 
   @media (max-width: 540px) {
-    visibility: hidden;
+    /* visibility: hidden; */
     background-color: purple;
+
+    &:target {
+      background-color: black;
+    }
+  }
+
+  &:target {
+    visibility: visible;
   }
 `
 
